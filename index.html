@@ -10,28 +10,45 @@
 </head>
 <body>
     <header>
-        <h1>Oportunidade para todos!</h1>
-        <div class="menu"> <!--criação do menu-->
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#contato">Contato</a>
-            </nav>
-        </div>
+        <div class="container">
+            <nav class="nav">
+              <div class="header-brand-logo">
+                  <h1>Oportunidade para Todos</h1>
+              </div> <!-- header-brand-logo -->
+          
+              <ul class="header-navbar">
+                <li><a href="./#jogos" title="Jogos"><i class="fas fa-gamepad"></i> Destaques</a></li>
+                <li><a href="./news.html" title="Notícias"><i class="fa fa-rss"></i> Notícias</a></li>
+                <li><a href="./about.html" title="About"><i class="fa fa-users"></i> Sobre</a></li>
+                <li><a href="./contact.html" title="Contact"><i class="fa fa-envelope"></i> Contato</a></li>
+              </ul>
+            </nav> <!-- nav -->
+        </div> <!-- container -->
     </header>
     <main>
-        <div class="home-banner">
-            <img src="./img/imgInclusaoSESI.jpg" alt="Imagem de uma quebra cabeça, em que uma criança em uma cadeira de roda é colocada junto com outra criança." class="img-banner">
-            <legend>Fonte: https://www.sesisp.org.br/educacao/inclusao</legend>
-            <h3>Esse site tem como missão trazer informações que contribua com a inclusão e acessibilidade de pessoas com deficiência ou alguma necessidade adaptativa.</h3>
-        </div>
+        <section class="banner">
+            <div class="content-banner">
+              <p>Esse site tem como missão trazer informações que contribua com a inclusão e acessibilidade de pessoas com deficiência ou alguma necessidade adaptativa.</p>
+            </div>
+        </section>
         <div class="home-conteudo">
-            <iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/vHXvGwksKT9E" title="YouTube video player" frameborder="0" 
+            <iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/HXvGwksKT9E" title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
     <footer>
-        <p>Copyright - Site elaborado para atividade da pós de Educação Especial e Inclusiva da UFABC</p>
+        <div class="section_rodape">
+            <a href="./index.html"><img src="./img/" class="logo_rodape"></a>>
+            <div class="topicos_rodape"><a href="./about.html">Sobre</a></div>
+            <div class="topicos_rodape"><a href="./contact.html"> Contato</a></div>
+            <div class="redesocial">
+            <a href="https://www.facebook.com/"><img src="./img/icons/facebook.svg" class="rodape_icon"></a>
+            <a href="https://www.instagram.com/"><img src="./img/icons/instagram.svg" class="rodape_icon"></a>
+            </div>
+          </div>
+          <div class="section_termos">
+            <div class="termos">© 2021 Copyright - Site elaborado para atividade da pós de Educação Especial e Inclusiva da UFABC</div>
+          </div>
     </footer>
 </body>
 </html>
